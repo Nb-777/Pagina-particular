@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <h1 style="text-align: center;">Formulario de Contacto</h1>
+
+    <h2 style="text-align: center;">Llene este formulario</h2>
+
+    <form action="#" method="post" style="max-width: 500px; margin: auto;">
+
+        <label for="nombre">Nombre:</label><br>
+
+        <input type="text" id="nombre" name="nombre" required style="width: 100%; padding: 8px; margin: 5px 0 20px 0;"><br>
+
+        <label for="email">Correo Electrónico:</label><br>
+
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin: 5px 0 20px 0;"><br>
+
+        <label for="telefono">Teléfono:</label><br>
+
+        <input type="tel" id="telefono" name="telefono" required style="width: 100%; padding: 8px; margin: 5px 0 20px 0;"><br>
+
+        <label for="asunto">Asunto:</label><br>
+        <select id="asunto" name="asunto" required style="width: 100%; padding: 8px; margin: 5px 0 20px 0;">
+
+            <option value="">Selecciona un asunto</option>
+
+            <option value="consulta">Consulta General</option>
+
+            <option value="soporte">Soporte Técnico</option>
+
+            <option value="otros">Otros</option>
+
+        </select><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+
+        <textarea id="mensaje" name="mensaje" rows="5" required style="width: 100%; padding: 8px; margin: 5px 0 20px 0;"></textarea><br>
+
+        <input type="submit" value="Enviar" style="width: 100%; padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">
+        
+    </form>
+
+</body>
+</html>
